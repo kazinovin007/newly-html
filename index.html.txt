@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Static Website</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px 40px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #34495e;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background-color: #ecf0f1;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 60px 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 20px 40px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Static Website</h1>
+    <p>Simple. Clean. Fast.</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Our Website</h1>
+    <p>We provide simple and elegant solutions to your web presence needs. Fully responsive, no fluff.</p>
+  </section>
+
+  <section class="section">
+    <h2>About Us</h2>
+    <p>We are a small team of web enthusiasts who believe in clean code and minimal design. Our goal is to deliver fast-loading, responsive websites without any unnecessary bloat.</p>
+  </section>
+
+  <section class="section">
+    <h2>Our Services</h2>
+    <p>We specialize in static website design, landing pages, business portfolios, and lightweight frontend solutions. Whether you're a startup or an individual, we can help bring your online vision to life.</p>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Reach out to us via email at <strong>contact@example.com</strong> or visit our office for a free consultation. We'd love to help you get started.</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Static Website Co. All rights reserved.
+  </footer>
+
+</body>
+</html>
